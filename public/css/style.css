@@ -12,9 +12,11 @@ table {
 }
 
 .titleText {
+    display: block;
     text-align: center;
     font-size: 64px;
-    margin: 20px;
+    font-family: "Spectral", serif;
+    margin: 15px;
     animation: fadeIn 5s;
 }
 
@@ -23,7 +25,7 @@ table {
     100% { opacity: 1; }
 }
 
-.background {
+.scene {
     display: table-cell;
     background-image: conic-gradient(lightblue, pink, lavender); /* temporary */
     width: 500px;
