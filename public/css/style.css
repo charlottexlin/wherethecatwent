@@ -1,0 +1,38 @@
+table {
+    border-collapse: collapse;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.invisible {
+    display: none;
+}
+
+.titleText {
+    text-align: center;
+    font-size: 64px;
+    margin: 20px;
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; } /* citation: https://blog.hubspot.com/website/css-fade-in */
+    100% { opacity: 1; }
+}
+
+.background {
+    display: table-cell;
+    background-image: conic-gradient(lightblue, pink, lavender); /* temporary */
+    width: 500px;
+    height: 260px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.cat {
+    width: 233px;
+    height: 200px;
+}
