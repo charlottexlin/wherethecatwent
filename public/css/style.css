@@ -1,10 +1,5 @@
-table {
-    border-collapse: collapse;
-}
-
 .center {
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
 
 .invisible {
@@ -21,13 +16,12 @@ table {
 }
 
 @keyframes fadeIn {
-    0% { opacity: 0; } /* citation: https://blog.hubspot.com/website/css-fade-in */
+    0% { opacity: 0; } /* reference: https://blog.hubspot.com/website/css-fade-in */
     100% { opacity: 1; }
 }
 
 .scene {
-    display: table-cell;
-    background-image: conic-gradient(lightblue, pink, lavender); /* temporary */
+    display: inline-block;
     width: 500px;
     height: 260px;
     text-align: center;
@@ -35,6 +29,12 @@ table {
 }
 
 .cat {
+    position: relative;
     width: 233px;
     height: 200px;
+    top: -205px;
+}
+
+body {
+    overflow: hidden;
 }
